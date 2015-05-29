@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>MSP432-Launchpad-Printf-Support</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.ti.ccstudio.core.ccsNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>msp432p4xx_driverlib.lib</name>
+			<type>1</type>
+			<location>C:/ti/msp430/MSPWare_2_10_00_15/driverlib/driverlib/MSP432P4xx/ccs/msp432p4xx_driverlib.lib</location>
+		</link>
+	</linkedResources>
+	<variableList>
+		<variable>
+			<name>MSPWAREDLIB_ROOT</name>
+			<value>file:/C:/ti/msp430/MSPWare_2_10_00_15/driverlib/driverlib/MSP432P4xx</value>
+		</variable>
+	</variableList>
+</projectDescription>
