@@ -5,7 +5,7 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROGRAM.Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0" value="${build_artifact:MSP432-Launchpad-Printf-Support}"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0" value="MSP432-Launchpad-Printf-Support"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:MSP432-Launchpad-Printf-Support}"/>
-<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0" value="E:/Working\43oh\MSP432-Launchpad-Printf-Support\Debug\MSP432-Launchpad-Printf-Support.out"/>
+<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.Texas Instruments XDS110 USB Debug Probe/CORTEX_M4_0" value="E:/Working\HUB-42\Repos\github\MSP432Launchpad\MSP432-Launchpad-Printf-Support\Debug\MSP432-Launchpad-Printf-Support.out"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/MSP432-Launchpad-Printf-Support"/>
 </listAttribute>
