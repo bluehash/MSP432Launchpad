@@ -1,6 +1,6 @@
 Many members on 43oh have requested support for a full FAT system stack using the super-awesome Elm-Chan stack. This is my attempt at it. The software still needs work.
 You can ask for support in this 43oh thread:
-
+http://forum.43oh.com/topic/8972-full-sd-card-fatfs-elm-chan-module-support-for-the-msp432-launchpad/
 
 Hardware:
 1. The 43oh SDCard BoosterPack
