@@ -47,7 +47,7 @@ void EusciA0_ISR(void)
     GPIO_setOutputHighOnPin(GPIO_PORT_P1, GPIO_PIN0);
 
     /* Echo back. */
-    EUSCI_A_UART_transmitData(EUSCI_A0_MODULE, receiveByte);
+    EUSCI_A_UART_transmitData(EUSCI_A0_BASE, receiveByte);
 
     GPIO_setOutputLowOnPin(GPIO_PORT_P1, GPIO_PIN0);
 }
@@ -75,12 +75,12 @@ int main(void)
         GPIO_PIN2 | GPIO_PIN3, GPIO_PRIMARY_MODULE_FUNCTION);
 
     /* Configuring UART Module */
-    MAP_UART_initModule(EUSCI_A0_MODULE, &uartConfig);
+    MAP_UART_initModule(EUSCI_A0_BASE, &uartConfig);
 
     /* Enable UART module */
-    MAP_UART_enableModule(EUSCI_A0_MODULE);
+    MAP_UART_enableModule(EUSCI_A0_BASE);
 
-    UART_enableInterrupt(EUSCI_A0_MODULE, EUSCI_A_UART_RECEIVE_INTERRUPT);
+    UART_enableInterrupt(EUSCI_A0_BASE, EUSCI_A_UART_RECEIVE_INTERRUPT);
     Interrupt_enableInterrupt(INT_EUSCIA0);
 	Interrupt_enableMaster();
 
